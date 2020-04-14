@@ -24,7 +24,7 @@ mongoose.connect(MONGODB_URI, {
 
 // Creating Routes
 app.use(require("./routes/api-routes.js"));
-app.use(require("./routes/html-Routes.js"));
+app.use(require("./routes/html-routes.js"));
 
 
 // Starts the server to begin listening
